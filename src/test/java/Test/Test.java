@@ -58,7 +58,7 @@ public class Test {
         login();
         verification("//span[@class='title']","PRODUCTS");
         Addtocart();
-        verification2("//span[@class='title']","Checkout: Your Information");
+        verification2("//span[@class='title']","CHECKOUT: YOUR INFORMATION");
         myinformation();
     }
 }
